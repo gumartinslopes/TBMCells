@@ -35,6 +35,7 @@ def load_image_data(data_dir):
                         x_data.append(imread(files))
                     else:
                         img = rgb2gray(imread(files))
+                        #img = imread(files)
                         x_data.append(img)
                     y_data.append(cl)
     if x_data == []:

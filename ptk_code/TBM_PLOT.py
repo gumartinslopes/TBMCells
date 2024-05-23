@@ -49,10 +49,12 @@ def particle2image(x,a,sigma,imgshape):
     return I.T
 
 def get_particles(img,N):
-    thresh=.01 # If you want to discard low intensity values, otherwise set it to zero
+    #thresh=.01 # If you want to discard low intensity values, otherwise set it to zero
+    thresh = 0
     xfull=np.argwhere(img>thresh)
     features= np.concatenate([xfull,img[xfull[:,0],xfull[:,1]][:,np.newaxis]],1)
-    kmeans=KMeans(n_clusters=N)
+    n_clusters = len(features) if len(features) < N else N
+    kmeans=KMeans(n_clusters=n_clusters)
     kmeans.fit(features)
     x=kmeans.cluster_centers_
     return x
