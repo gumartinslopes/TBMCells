@@ -1,0 +1,7 @@
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+red_channel_mean_threshold: 140
+green_channel_mean_threshold: 100
+blue_channel_mean_threshold: 90

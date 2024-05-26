@@ -1,0 +1,124 @@
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+red_channel_mean_threshold: 130
+green_channel_mean_threshold: 90
+blue_channel_mean_threshold: 80
+
+--------------
+img: 2.png
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+tp: 134
+fp: 13
+fn: 23
+precision: 0.91
+recall: 0.85
+f1_score: 0.88
+
+--------------
+img: 3.png
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+tp: 98
+fp: 24
+fn: 16
+precision: 0.8
+recall: 0.86
+f1_score: 0.83
+
+--------------
+img: 4.png
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+tp: 72
+fp: 4
+fn: 34
+precision: 0.95
+recall: 0.68
+f1_score: 0.79
+
+--------------
+img: 5.png
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+tp: 16
+fp: 3
+fn: 30
+precision: 0.84
+recall: 0.35
+f1_score: 0.49
+
+--------------
+img: 6.png
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+tp: 45
+fp: 6
+fn: 34
+precision: 0.88
+recall: 0.57
+f1_score: 0.69
+
+--------------
+img: 7.png
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+tp: 45
+fp: 5
+fn: 51
+precision: 0.9
+recall: 0.47
+f1_score: 0.62
+
+--------------
+img: 8.png
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+tp: 29
+fp: 1
+fn: 14
+precision: 0.97
+recall: 0.67
+f1_score: 0.79
+
+--------------
+img: 9.png
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+tp: 14
+fp: 8
+fn: 3
+precision: 0.64
+recall: 0.82
+f1_score: 0.72
+
+--------------
+img: 10.png
+num_init_seeds: 7000
+num_final_superpixels: 4000
+n_masses: 300
+num_of_tries: 5
+tp: 12
+fp: 1
+fn: 4
+precision: 0.92
+recall: 0.75
+f1_score: 0.83

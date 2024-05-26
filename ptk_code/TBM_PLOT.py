@@ -732,7 +732,7 @@ class PLOT_NS_Classifier:
             import cupy as cp
         X = X.reshape([X.shape[0], -1])
         #X = np.transpose(X,(0,2,1)).reshape(X.shape[0],-1)
-        print('Len basis: {}'.format(self.len_subspace))
+        #print('Len basis: {}'.format(self.len_subspace))
         D = []
         for class_idx in range(self.num_classes):
             basis = self.subspaces[class_idx]

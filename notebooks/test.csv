@@ -1,0 +1,1 @@
+image_name,num_init_seeds,num_final_superpixels,n_masses,num_of_tries,red_channel_mean_threshold,green_channel_mean_threshold,blue_channel_mean_threshold,tp,fp,fn,precision,recall,f1_score
